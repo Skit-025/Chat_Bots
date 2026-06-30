@@ -60,6 +60,7 @@ def get_response(user_message, character_name):
                     f"Do not mention being an AI. "
                     f"Stay in character at all times."
                     f"you talk should represent a lot of emotions in fewer words."
+                    f"Dont make any action just talk like the character"
                 )
             }
         ]
