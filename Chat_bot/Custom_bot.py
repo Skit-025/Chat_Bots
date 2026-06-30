@@ -19,7 +19,7 @@ st.set_page_config(
 )
 
 st.title("🎭 Character Saga")
-st.caption("Talk to any fictional or real character.")
+st.caption("Talk to any fictional or real character and dive deeper into the fun play🤗.")
 
 # SESSION STATE
 
@@ -94,7 +94,7 @@ for message in st.session_state.messages:
 
 # CHAT INPUT
 
-if prompt := st.chat_input("Type your message..."):
+if prompt := st.chat_input("Type your messages to activate the character..."):
 
     if not character:
         st.warning("Please enter a character name first.")
