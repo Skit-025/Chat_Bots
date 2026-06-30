@@ -49,7 +49,7 @@ with st.sidebar:
 
 def get_response(user_message, character_name):
     payload = {
-        "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+        "model": "meta-llama/Llama-3.3-70B-Instruct",
         "messages": [
             {
                 "role": "system",
