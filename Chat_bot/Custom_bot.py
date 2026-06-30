@@ -59,12 +59,13 @@ def get_response(user_message, character_name):
                     f"Speak, think, and respond exactly as {character_name} would. "
                     f"Do not mention being an AI. "
                     f"Stay in character at all times."
+                    f"you talk should represent a lot of emotions in fewer words."
                 )
             }
         ]
         + st.session_state.messages
         + [{"role": "user", "content": user_message}],
-        "max_tokens": 500,
+        "max_tokens": 200,
         "temperature": 0.8
     }
 
