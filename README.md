@@ -1,6 +1,6 @@
 # 🚀 Project‑1: AI Bot Creations  
 
-A collection of experimental and production‑ready bots built with different approaches — from simple static responses to advanced AI integrations. This repo demonstrates how conversational agents can be designed using multiple paradigms: **static**, **API‑driven**, **AI‑powered**, and **RAG (Retrieval‑Augmented Generation)**.  
+A collection of experimental and production‑ready bots built with different approaches — from simple static responses to advanced AI integrations. This repo demonstrates how conversational agents can be designed using multiple paradigms: **static**, **API‑driven**, **AI‑powered**, and **RAG (Retrieval‑Augmented Generation)** 
 
 ---
 
